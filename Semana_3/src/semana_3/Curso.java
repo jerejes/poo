@@ -37,6 +37,7 @@ public Object [] registrar (int num , String alumno )
 {
     Object [] fila = {num,nomCur,tipo,modali,ciclo, alumno,costo} ; 
     return fila;
+    string a ="da";
 }
 
 }
