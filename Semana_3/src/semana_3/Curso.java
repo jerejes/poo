@@ -1,13 +1,28 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package semana_3;
-
-/**
- *
- * @author UPN
- */
 public class Curso {
-    
+public String nomCur;
+public Double costo;
+public String tipo;
+public int ciclo ;
+public String modali;
+
+public static  int totalMatri ;
+public Curso (String nom , double cos , String tip , String mod , int cic ) {
+    nomCur = nom ; 
+    costo = cos;
+    tipo = tip;
+    modali = mod ;
+    ciclo = cic;
+    totalMatri ++ ; 
+}
+public double calpago (){
+    return costo ; 
+}
+public double calpago (double desc){
+    return costo - desc ; 
+}
+
+public static int obtenerToReg (){
+    return totalMatri;
+}
 }
