@@ -25,4 +25,13 @@ public double calpago (double desc){
 public static int obtenerToReg (){
     return totalMatri;
 }
+public static class Alumno 
+{
+    public String nomAlum ; 
+    public Alumno (String alum)
+    {
+        nomAlum = alum;
+    }
+        
+}
 }
