@@ -32,6 +32,11 @@ public static class Alumno
     {
         nomAlum = alum;
     }
-        
 }
+public Object [] registrar (int num , String alumno )
+{
+    Object [] fila = {num,nomCur,tipo,modali,ciclo, alumno,costo} ; 
+    return fila;
+}
+
 }
