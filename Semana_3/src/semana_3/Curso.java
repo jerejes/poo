@@ -1,5 +1,6 @@
 package semana_3;
 public class Curso {
+    
 public String nomCur;
 public Double costo;
 public String tipo;
