@@ -42,6 +42,14 @@ public Object [] registrar (int num , String alumno )
     string a ="da";
     string a ="da";
     string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
+    string a ="da";
 
 }
 
